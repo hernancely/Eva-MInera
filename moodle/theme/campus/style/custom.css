@@ -1,0 +1,47 @@
+/* Campus Custom CSS
+-------------------------*/
+
+.dir-rtl .breadcrumb-nav {
+    float: right;
+}
+#page{
+	background-image: url(campus/pix/fondo_evamin.jpg);
+	background-size: contain;
+}
+.frontpageheader.flexlayout{
+	background: #0e170e;
+}
+.frontpageheader.flexlayout .backgroundcontainer {
+	width: 550px;
+	padding-bottom: initial;
+	height: 100px;
+	margin-left: 72px;
+	float: none;
+ }
+.frontpageheader.flexlayout .backgroundcontainer img {
+   
+    height: 100%;
+    position: absolute;
+    left: 0;
+    max-height: inherit;
+    max-width: 550px;
+}
+.frontpageheader.flexlayout .logotitle{;
+ 	padding-bottom: 95px;
+ 	width: 90px; 	
+ }
+ .frontpageheader.flexlayout .logotitle a{
+ 	width: 90px;
+    height: 90px;
+ }
+.navbar{
+	padding-left: 0; 
+    padding-right: 0; 
+}
+.navbar .brand{
+	max-width: 500px;
+}
+
+/* Custom CSS Settings
+-------------------------*/
+[[setting:customcss]]
